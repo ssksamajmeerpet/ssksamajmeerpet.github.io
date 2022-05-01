@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: #f9f7f7;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2ce782;
+  background: #ff7722;
   color: #fff;
 }
 .back-to-top.active {
@@ -404,12 +404,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-fade .carousel-inner .carousel-item,
 #hero .carousel-fade .carousel-inner .active.carousel-item-start,
 #hero .carousel-fade .carousel-inner .active.carousel-item-end {
-  opacity: 1;
+  opacity: 0.1;
 }
 #hero .carousel-fade .carousel-inner .active,
 #hero .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
 #hero .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
-  opacity: 1;
+  opacity: 2;
   transition: 0.5s;
 }
 #hero .carousel-fade .carousel-inner .carousel-item-next,
